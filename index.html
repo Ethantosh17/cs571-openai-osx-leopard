@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Safari 3 Chat App</title>
+    <style>
+        /* Very basic styling; tweak as you like */
+
+        .message-list {
+            border: 1px solid #ccc;
+            height: 400px;
+            overflow-y: auto;
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+            background: #f8f8f8;
+        }
+
+        .user-message {
+            background: #d8eafd;
+            border-radius: 8px;
+            padding: 6px 10px;
+            margin: 3px 0;
+            display: inline-block;
+            max-width: 80%;
+        }
+
+        .assistant-message {
+            background: #e8e8e8;
+            border-radius: 8px;
+            padding: 6px 10px;
+            margin: 3px 0;
+            display: inline-block;
+            max-width: 80%;
+        }
+
+        .message-row {
+            margin-bottom: 4px;
+        }
+
+        #input-area {
+            margin-top: 0.5rem;
+        }
+
+        #input-form {
+            display: flex;
+        }
+
+        #input-text {
+            flex: 1;
+            margin-right: 0.5rem;
+        }
+
+        #loading-indicator {
+            margin-top: 0.25rem;
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        #nav-bar {
+            display: flex;
+            gap: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="text-app-manager">
+        <div id="nav-bar">
+            <button id="new-chat-btn" type="button">New Chat</button>
+            <label>
+                Persona:
+                <select id="persona-select"></select>
+            </label>
+        </div>
+
+        <div id="text-app">
+            <div id="message-list" class="message-list"></div>
+            <div id="loading-indicator" style="display:none;">Loading…</div>
+            <div id="input-area">
+                <form id="input-form">
+                    <input
+                        id="input-text"
+                        type="text"
+                        placeholder="Type a message..."
+                        aria-label="Type and submit to send a message."
+                    />
+                    <button id="send-btn" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="chat-es3.js"></script>
+</body>
+</html>
+

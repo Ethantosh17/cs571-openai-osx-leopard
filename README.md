@@ -1,7 +1,7 @@
 # cs571-openai-osx-leopard
 We did a project in CS571 where we wrote our own React code around a provided CS571 wrapper of the OpenAI API. This is an adaptation of that project that works on Safari 3.1.2, because I thought it would be fun to use "ChatGPT" on a PowerPC Mac.
 
-This requires a modern device with Node.js installed to use as a proxy as well as a device running Mac OS X Leopard (or newer). I don't know how recent it has to be, but a Mac running Monterey worked fine for me, so I'll give instructions for that.
+This requires a modern device with Node.js installed to use as a proxy as well as a device running Mac OS X Leopard (or newer). I don't know how recent the proxy device has to be, but a Mac running Monterey worked fine for me, so I'll give instructions for that.
 
 Instructions:
 

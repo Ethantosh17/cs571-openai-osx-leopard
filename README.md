@@ -11,5 +11,5 @@ Instructions:
 4. Put the CS571 Badger ID in proxy.js where it says "PUT BADGER ID HERE"
 5. Open terminal on the modern Mac and cd to where you put proxy.js.
 6. Run the following commands: "npm install express http-proxy-middleware" and then "node proxy.js". It should confirm that the proxy is running.
-7. Open index.html on the Mac running Leopard.
+7. Open index.html on the Mac running Leopard with Safari.
 8. Voila!

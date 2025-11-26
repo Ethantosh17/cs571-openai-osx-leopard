@@ -6,7 +6,7 @@ This requires a modern device with Node.js installed to use as a proxy as well a
 Instructions:
 
 1. Move index.html and chat-es3.js to the Mac running Leopard. It doesn't matter where they are, so long as they are in the same directory.
-2. Move proxy.js to the modern Mac. I don't know how recent it has to be, but Monterey worked fine for me.
+2. Move proxy.js to the modern device. I don't know how recent it has to be, but a Mac running Monterey worked fine for me, so I'll give instructions for that.
 3. Put the local IP address of the modern Mac in chat-es3.js where it says "LOCAL_IP_OF_PROXY_SERVER"
 4. Put the CS571 Badger ID in proxy.js where it says "PUT BADGER ID HERE"
 5. Open terminal on the modern Mac and cd to where you put proxy.js.
